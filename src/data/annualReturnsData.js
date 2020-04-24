@@ -1,7 +1,7 @@
 // 20200423152853
 // https://www.slickcharts.com/sp500/returns/history.json
 
-[
+export default [
     {
       "year": 2019,
       "totalReturn": "31.49"
