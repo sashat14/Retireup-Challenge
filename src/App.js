@@ -3,6 +3,7 @@ import './App.css';
 import returns from './data/annualReturnsData.js';
 import AnnualReturnsTable from './components/AnnualReturnsTable/AnnualReturnsTable.js';
 import AnnualReturnsSlider from './components/AnnualReturnsSlider/AnnualReturnsSlider.js';
+import Header from './components/Header/Header.js';
 
 function App() {
   const [returnsData, setReturnsData] = useState(returns);
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <AnnualReturnsSlider startYear={startYear} 
                            endYear={endYear} 
                            latestYear={latestYear} 

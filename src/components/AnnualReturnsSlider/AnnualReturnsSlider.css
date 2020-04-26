@@ -1,9 +1,25 @@
- .container{
+ .range-container-container{
     width:100%;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .range-container{
-    width: 830px;
-    margin-top: 75px;
+    width: 55%;
 }
+
+@media (max-width: 770px) {
+    .range-container-container{
+        margin-top: 25px;
+    }
+    .range-container{
+        margin: 0 25px;
+        width: 80%;
+    }
+ }
+
+@media (max-width: 500px) {
+    .range-container{
+        width: 100%;
+    }
+ }

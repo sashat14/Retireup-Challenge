@@ -15,15 +15,14 @@ const AnnualReturnsTable = (props) => {
       }
 
     return(
-        <div className="container">
-            <p className="title">S&P 500 Total Returns By Year</p>
+        <div className="table-container-container">
             <div className="table-container">
-                <Table striped>
+                <Table aria-label="S&P 500 Total Returns By Year" striped>
                     <thead>
                         <tr>
-                            <th>Year</th>
-                            <th>Total Return</th>
-                            <th>Cumulative Returns</th>
+                            <th scope="col">Year</th>
+                            <th scope="col">Total Return</th>
+                            <th scope="col">Cumulative Returns</th>
                         </tr>
                     </thead>
                     <tbody>
