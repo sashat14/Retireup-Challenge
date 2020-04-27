@@ -8,7 +8,7 @@ import Header from './components/Header/Header.js';
 function App() {
   const [returnsData, setReturnsData] = useState(returns);
   const [startYear, setStartYear] = useState(1926);
-  const latestYear = returnsData[returns.length-1].year;
+  const latestYear = returnsData[0].year;
   const [endYear, setEndYear] = useState(latestYear);
 
 
@@ -18,10 +18,9 @@ function App() {
   }
 
   const filterData = ()=>{
-    let sortedData = returnsData.sort((a,b)=>{
+    let sortedData = [].concat(returnsData).sort((a,b)=>{
       return a.year - b.year
     });
-
     let filteredData = sortedData.filter((data)=>{
       return data.year >= startYear && data.year <= endYear;
     })
