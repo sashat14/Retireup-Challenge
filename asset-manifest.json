@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Retireup-Challenge/static/css/main.9ca7209b.chunk.css",
-    "main.js": "/Retireup-Challenge/static/js/main.3e9471c5.chunk.js",
-    "main.js.map": "/Retireup-Challenge/static/js/main.3e9471c5.chunk.js.map",
+    "main.js": "/Retireup-Challenge/static/js/main.1cd98d83.chunk.js",
+    "main.js.map": "/Retireup-Challenge/static/js/main.1cd98d83.chunk.js.map",
     "runtime-main.js": "/Retireup-Challenge/static/js/runtime-main.e0f3083b.js",
     "runtime-main.js.map": "/Retireup-Challenge/static/js/runtime-main.e0f3083b.js.map",
     "static/css/2.bb750723.chunk.css": "/Retireup-Challenge/static/css/2.bb750723.chunk.css",
     "static/js/2.5e9b68c3.chunk.js": "/Retireup-Challenge/static/js/2.5e9b68c3.chunk.js",
     "static/js/2.5e9b68c3.chunk.js.map": "/Retireup-Challenge/static/js/2.5e9b68c3.chunk.js.map",
     "index.html": "/Retireup-Challenge/index.html",
-    "precache-manifest.31b6e3338e99f765bf9abb07ebfae0ef.js": "/Retireup-Challenge/precache-manifest.31b6e3338e99f765bf9abb07ebfae0ef.js",
+    "precache-manifest.57c3ec624b95788772ba6d0cb7d1c4ad.js": "/Retireup-Challenge/precache-manifest.57c3ec624b95788772ba6d0cb7d1c4ad.js",
     "service-worker.js": "/Retireup-Challenge/service-worker.js",
     "static/css/2.bb750723.chunk.css.map": "/Retireup-Challenge/static/css/2.bb750723.chunk.css.map",
     "static/css/main.9ca7209b.chunk.css.map": "/Retireup-Challenge/static/css/main.9ca7209b.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.bb750723.chunk.css",
     "static/js/2.5e9b68c3.chunk.js",
     "static/css/main.9ca7209b.chunk.css",
-    "static/js/main.3e9471c5.chunk.js"
+    "static/js/main.1cd98d83.chunk.js"
   ]
 }

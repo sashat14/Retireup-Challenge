@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Retireup-Challenge/precache-manifest.31b6e3338e99f765bf9abb07ebfae0ef.js"
+  "/Retireup-Challenge/precache-manifest.57c3ec624b95788772ba6d0cb7d1c4ad.js"
 );
 
 self.addEventListener('message', (event) => {

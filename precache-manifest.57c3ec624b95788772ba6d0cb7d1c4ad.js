@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1049b46fd70968c1efd60e85377de1df",
+    "revision": "37fd3a643d33fc3f72d8806c80099ef3",
     "url": "/Retireup-Challenge/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Retireup-Challenge/static/css/2.bb750723.chunk.css"
   },
   {
-    "revision": "231b3b1be8ccaec574c8",
+    "revision": "45192830d418d3c0295b",
     "url": "/Retireup-Challenge/static/css/main.9ca7209b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Retireup-Challenge/static/js/2.5e9b68c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "231b3b1be8ccaec574c8",
-    "url": "/Retireup-Challenge/static/js/main.3e9471c5.chunk.js"
+    "revision": "45192830d418d3c0295b",
+    "url": "/Retireup-Challenge/static/js/main.1cd98d83.chunk.js"
   },
   {
     "revision": "7946611799c5cc81abbb",
