@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { Route } from "react-router-dom";
 import './App.css';
 import returns from './data/annualReturnsData.js';
 import AnnualReturnsTable from './components/AnnualReturnsTable/AnnualReturnsTable.js';
 import AnnualReturnsSlider from './components/AnnualReturnsSlider/AnnualReturnsSlider.js';
+import AnnualReturnsGraph from './components/AnnualReturnsGraph/AnnualReturnsGraph.js'
 import Header from './components/Header/Header.js';
 
 function App() {
@@ -30,12 +32,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AnnualReturnsSlider startYear={startYear} 
+      <Route exact path="/"><AnnualReturnsSlider startYear={startYear} 
                            endYear={endYear} 
                            latestYear={latestYear} 
                            handleSlideChange={handleSlideChange} 
                            />
-      <AnnualReturnsTable returnsData={filterData()} />   
+      </Route>
+      <Route exact path="/"><AnnualReturnsTable returnsData={filterData()} /></Route> 
+      <Route path="/graph"><AnnualReturnsGraph returnsData={filterData()} /></Route> 
     </div>
   );
 }
